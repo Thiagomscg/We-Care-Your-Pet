@@ -1,0 +1,123 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+}
+
+header{
+    margin: 38px 0px 0px 76px;
+}
+
+.HeaderLink{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 23px;
+    color: #989D9C;
+}
+
+.HeaderLink:hover{
+    font-weight: 500;
+    color: #a4a7a6e4;
+}
+
+.HeaderButton{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    background: #665AE1;
+    border-radius: 20.5px;
+    padding: 6px 23px 6px 22px;
+    cursor: pointer;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.201);
+}
+
+.HeaderButton:hover{
+    font-weight: 500;
+    color: #ffffffd8;
+    background: #655ae1f5;
+    border-radius: 20.5px;
+    padding: 6px 21px 6px 22px;
+}
+
+.HeaderButton:active{
+    font-weight: 600;
+    color: #efefefd8;
+    background: #655ae1d9;
+    border-radius: 20.5px;
+    padding: 6px 21px 6px 22px;
+}
+
+main{
+    display: flex;
+    margin: 138px 0px 0px 125px;
+}
+
+.FirstMainSection{
+    width: 568px;
+    height: 500px;
+}
+
+.SeccondMainSection{
+    width: 513px;
+    height: 440px;
+    margin-left: 100px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+    
+}
+
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin: 32px 0px 65px 0px;
+}
+
+.MainButton{
+    background: #ADFF00;
+    border-radius: 40.5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    border: none;
+    padding: 15px 46px 22px 46px;
+    cursor: pointer;
+    box-shadow: 1px 3px #4f700789;
+}
+
+.MainButton:hover{
+    background: #aeff00d2;
+    border-radius: 40.5px;
+    font-weight: 600;
+    color: #000000ea;
+}
+
+.MainButton:active{
+    background: #aeff00b5;
+    border-radius: 40.5px;
+    font-weight: 700;
+    color: #000000b7;
+}
